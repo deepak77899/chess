@@ -44,7 +44,6 @@ export const ChessGame = () => {
   }
 
   function onSquareClick(square) {
-    console.log(game.isCheck());
     setRightClickedSquares({});
 
     // from square
@@ -147,6 +146,7 @@ export const ChessGame = () => {
         moveFrom,
         verbose: true,
       });
+
       if(game.isGameOver() || game.isDraw() || moves.length === 0){
         game.reset();
       }
