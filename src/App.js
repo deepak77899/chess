@@ -1,12 +1,12 @@
-import { Chessboard } from "react-chessboard";
 import "./App.css"
-import PlayRandomMoveEngine from "./PlayRandomMoveEngine"
+import {ChessGame} from "./components/ChessGame"
 
 function App() {
   return (
     <div className="App">
-
-  <PlayRandomMoveEngine/>
+      <div className="board">
+       <ChessGame />
+      </div>
   
     </div>
   );

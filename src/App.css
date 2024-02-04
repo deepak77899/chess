@@ -1,8 +1,18 @@
 .App {
   text-align: center;
-  width: 50%;
+  background-color: #161512;
+  min-height: 100vh;
 }
-
+.currentPlayer{
+  color:white;
+}
+h1{
+  margin: 0 auto;
+}
+.board{
+  width:39.6%;
+  margin:0 auto
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
