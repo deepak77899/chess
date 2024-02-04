@@ -165,7 +165,7 @@ export const ChessGame = () => {
   };
   return (
     <>
-      <h1 className='currentPlayer'>{(currentPlayer==='w')?"whites turn":"Black'sTurn"}</h1>
+      <h1 className='currentPlayer'>{(currentPlayer==='w')?"White's Turn":"Black's Turn"}</h1>
       <Chessboard
         id="ClickToMove"
         animationDuration={200}

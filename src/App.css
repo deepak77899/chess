@@ -23,6 +23,11 @@ h1{
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 768px) {
+  .board{
+    width: 95%;
+  }
+}
 
 .App-header {
   background-color: #282c34;
