@@ -84,7 +84,7 @@ export const ChessGame = () => {
           foundMove.piece === "p" &&
           square[1] === "1")
       ) {
-        setCurrentPlayer(move.color === 'w' ? 'b' : 'w'); // Switch turns
+        setCurrentPlayer(foundMove.color === 'w' ? 'b' : 'w'); // Switch turns
         setShowPromotionDialog(true);
         return;
       }
